@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tudo sobre Gogle Glass</title>
+    <link rel="stylesheet" type="text/css" href="_css/estilo.css">
+    <script src="_javascript/funcoes.js"></script>
+    <link rel="stylesheet" type="text/css" href="_css/media.css">
+</head>
+
+<body>
+<div id="interface">
+    <!-- Cabeçalho -->
+    <header id="cabeçalho">
+        <hgroup>
+            <h1>Google Glass</h1>
+            <h2>A revolução do Google está chegando</h2>
+        </hgroup>
+    <img src="_imagens/multimidia.png" id="icone">
+
+        <!-- Menu -->
+        <nav id="menu">
+            <h1>Menu Principal</h1>
+            <ul type="square" start="">
+                <li onmousemove="mudaFoto('_imagens/home.png')" onmouseout="mudaFoto('_imagens/multimidia.png')"><a href="index.html">Home</a></li>
+                <li onmousemove="mudaFoto('_imagens/especificacoes.png')" onmouseout="mudaFoto('_imagens/multimidia.png')"><a href="specs.html">Especificações</a></li>
+                <li onmousemove="mudaFoto('_imagens/fotos.png')" onmouseout="mudaFoto('_imagens/multimidia.png')"><a href="fotos.html">Fotos</a></li>
+                <li onmousemove="mudaFoto('_imagens/multimidia.png')" onmouseout="mudaFoto('_imagens/multimidia.png')"><a href="multimidia.html"> Multimídia</a></li>
+                <li onmousemove="mudaFoto('_imagens/contato.png')" onmouseout="mudaFoto('_imagens/multimidia.png')"><a href="fale-conosco.html">Fale conosco</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="corpo-full">
+        <article id="noticia-principal">
+            <header id="cabecalho-artigo">
+                <h3>Glass > Multimídia</h3>
+                <h1>Sons e Vídeos</h1>
+                <h2>por Kleyverson Nunes</h2>
+                <h3 id="data-direita">Atualizado em 23/Julho/2020</h3>
+            </header>
+        <div id="tv-radio">
+            <video id="filme" controls="controls">
+                <source src="_media/While my guitar gently weeps.mp4">
+                [ERRO] Seu navegador não suporta HTML 5.
+                </video>
+            <audio id="musica" controls="controls">
+                <source id="audio" src="_media/Little Wing.mp3" type="audio/mp3">
+                [ERRO] Seu navegador não suporta HTML 5.
+            </audio>
+        </div>
+            <iframe id="greninja-theme" width="720" height="480" src="https://www.youtube.com/embed/SW7QU72Eo2s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </article>
+    </section>
+
+    <footer id="rodape">
+        <p>Copyright 2020 - by Kleyverson Nunes <br>
+            <a href="http://facebook.com/kleyversonnunes9" target="_blank">Facebook</a> | <a href="http://twitter.com" target="_blank">Twitter</a></p>
+    </footer>        
+</div>
+</body>
+</html>
